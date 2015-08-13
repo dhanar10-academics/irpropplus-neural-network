@@ -33,7 +33,7 @@ public class IRpropPlusNeuralNetwork {
 	public static void main(String[] args) {
 		double data[][] = {{0, 0, 0}, {0, 1, 1}, {1, 0, 1}, {1, 1, 0}}; // XOR
 		
-		IRpropPlusNeuralNetwork irpropplus = new IRpropPlusNeuralNetwork(2, 2, 1);
+		IRpropPlusNeuralNetwork irpropplus = new IRpropPlusNeuralNetwork(2, 4, 1);
 		irpropplus.setTargetMse(0.0001);
 		irpropplus.setMaxEpoch(1000);
 		
